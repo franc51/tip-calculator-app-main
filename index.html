@@ -26,10 +26,30 @@
           <button class="splitter_tip_percentage_button">50%</button>
           <input class="custom_input" placeholder="Custom"></input>
         </div>
-        <label for="">Number of people</label>
+        <div class="splitter_validation"> 
+          <label for="">Number of people</label>
+          <p class="splitter_validation_error">Can't be zero</p>
+        </div>
         <input class="splitter_people_value default_input" type="number" />
       </div>
-      <div class="splitter_rightside">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</div>
+      <div class="splitter_rightside">
+        <div class="splitter_tip">
+          <div class="splitter_tip_amount_person">
+            <h3>Tip amount</h3>
+            <p>/ person</p>
+          </div>
+          <h1 id="splitter_tip_amount" class="splitter_tip_amount">66</h1>
+        </div>
+
+        <div class="splitter_tip">
+          <div class="splitter_tip_amount_person">
+            <h3>Total</h3>
+            <p>/ person</p>
+          </div>
+          <h1 id="splitter_tip_amount" class="splitter_tip_amount">66</h1>
+        </div>
+        <button class="splitter_reset">RESET</button>
+      </div>
     </div>
   </body>
 </html>
